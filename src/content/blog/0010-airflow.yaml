@@ -343,3 +343,14 @@ content_markdown: |
 
   > I use `/home/ubuntu/airflow_tasks` for the repo path and the folder `src` for **DAG**s path. But you can use whatever you want.
   
+
+  # WIP
+
+      sudo useradd airflow
+
+      sudo mkdir /var/lib/airflow
+      sudo airflow initdb
+
+      sudo chmod 775 /var/lib/airflow
+      export AIRFLOW_HOME=/var/lib/airflow
+      

@@ -1,0 +1,58 @@
+# --------------------------------------------------------------------------------------------------
+# Basic metadata
+# --------------------------------------------------------------------------------------------------
+code: slackbot
+title: Creating a Slack bot
+# title_short: PySpark Example
+date: "2019-12-24"
+image: default.png
+highlight: True
+
+tags:
+  - Python
+
+tags_filter:
+  - Python
+
+# --------------------------------------------------------------------------------------------------
+# Extra info. This will add a button with href to the url
+# --------------------------------------------------------------------------------------------------
+# link: 
+#   text: Github
+#   url: https://github.com/villoro/villoro_posts/tree/master/0028-pyspark_example
+
+
+# --------------------------------------------------------------------------------------------------
+# Content
+# --------------------------------------------------------------------------------------------------
+brief_markdown: |
+  TODO
+
+# image_head:
+#   filename: spark.svg
+#   caption: spark
+
+
+content_markdown: |
+
+  ## Table of Contents
+
+  [TOC]
+
+  ## 0. Overview
+
+
+  # 1. Create a slack channel
+
+  Simply go to [slack.com](https://slack.com/)
+
+  Info
+  https://slack.com/intl/en-es/help/articles/115005265703-Create-a-bot-for-your-workspace
+
+  Create slack app
+
+  Inside the app page create bot user
+
+  Install app to workspace
+
+  * Store `OAuth Access Token` and `Bot User OAuth Access Token`
